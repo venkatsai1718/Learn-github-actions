@@ -1,10 +1,18 @@
+# Display name of the workflow shown in GitHub's Actions tab 
 name: Hello World
 
+# Trigger configuration block
 on:
+  # Enables manual triggering via the "Run workflow" button in GitHub
   workflow_dispatch:
 
+# Top-level container grouping all jobs in this workflow
 jobs:
+  # Unique identifier (Job ID) for this job
   say-hello-inline-bash:
+    # Provisions a clean virtual machine running Ubuntu 24.04 LTS
     runs-on: ubuntu-24.04
+    # Sequential list of tasks/commands to run inside the runner
     steps:
+      # Executes an inline Bash command to print text into the run logs
       - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
