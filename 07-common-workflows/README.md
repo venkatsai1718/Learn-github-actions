@@ -1,7 +1,7 @@
 # Common workflows
 
 ## Validate
-- **Lint** – Run automated linters (e.g., ESLint, flake8) to catch style violations and obvious syntax errors early.
+- **Lint** – Run automated linters (e.g., ESLint, flake8) to catch style violations and obvious syntax errors early.  
 - **Test** – Execute unit, integration, or end-to-end test suites to verify that new changes don’t break existing functionality.
 - **Static analysis** – Analyze source code without running it to uncover bugs, complexity hot-spots, or security issues.
   - **Security scanning** – Check code and dependencies for known vulnerabilities or insecure patterns.
@@ -19,3 +19,22 @@
 - **Release automation** – Automatically tag versions, generate release notes, and publish artifacts when code is merged to a release branch.
 - **Stale issues/PRs** – Mark or close inactive issues and pull requests after a period of inactivity to keep the backlog manageable.
 - **Dependency upgrades** – Periodically open PRs that bump third-party libraries or container images to the latest safe versions.
+
+
+## Linter
+![Linter](../artifacts/linter-workflow.png)
+
+## Test
+![Test](../artifacts/test-workflow.png)
+
+## Build - Executable
+![Build](../artifacts/build-executable-wf.png)
+
+## Build - Docker
+![Docker image](../artifacts/build-docker-img.png)
+
+## Deploy - push
+![Deploy](../artifacts/deploy-push-based-wf.png)
+
+## Repo Automations
+![Deploy](../artifacts/Repo-automations-dep-upgrades.png)
