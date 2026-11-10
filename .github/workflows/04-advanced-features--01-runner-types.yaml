@@ -38,8 +38,8 @@ jobs:
           echo "Runner name (type): ${{ runner.name }}"
 
   github-hosted-macos-vm:
-    name: macOS 14 VM
-    runs-on: macos-14
+    name: macOS 15 VM
+    runs-on: macos-15
     steps:
       - name: Show runner info
         run: |
