@@ -26,3 +26,13 @@ Almost any github event can trigger a workflow:
 * Many more
 
 ![Github Events](./artifacts/gh-events.png)
+
+
+## Writing/Reusing Actions
+
+1. Composite Action
+2. Reusable Workflow
+3. Js/Ts Action
+4. Container Action
+
+![Github Action types](./artifacts/actions-usage.png)
