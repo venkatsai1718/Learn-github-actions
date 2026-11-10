@@ -14,15 +14,3 @@
 
 ## Example workflow
 ![Hello world](<./artifacts/hello-world.png>)
-
-
-## Triggering Events
-
-Almost any github event can trigger a workflow:
-* Trigger manually
-* Push to branch
-* Create/update pull request
-* Cron jobs
-* Many more
-
-![Github Events](./artifacts/gh-events.png)
