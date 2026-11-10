@@ -36,3 +36,8 @@ Almost any github event can trigger a workflow:
 4. Container Action
 
 ![Github Action types](./artifacts/actions-usage.png)
+
+
+## Testing workflow locally
+
+* Use github actions act tool with which we can test locally mimic the runner in docker.
